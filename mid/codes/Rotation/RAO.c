@@ -39,6 +39,6 @@ int main()
     getch();
     closegraph();
 
-    return 0;
+    return 0;+
 }
 

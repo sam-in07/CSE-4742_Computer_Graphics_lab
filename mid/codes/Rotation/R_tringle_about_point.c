@@ -45,21 +45,21 @@ int main()
     line(x2, y2, x3, y3);
     line(x3, y3, x1, y1);
 
-    /* Rotate first vertex */
+    /* Ro first vertex */
     x4 = h + (x1 - h) * cos(angle)
            - (y1 - k) * sin(angle);
 
     y4 = k + (x1 - h) * sin(angle)
            + (y1 - k) * cos(angle);
 
-    /* Rotate second vertex */
+    /* Ro second vertex */
     x5 = h + (x2 - h) * cos(angle)
            - (y2 - k) * sin(angle);
 
     y5 = k + (x2 - h) * sin(angle)
            + (y2 - k) * cos(angle);
 
-    /* Rotate third vertex */
+    /* Ro third vertex */
     x6 = h + (x3 - h) * cos(angle)
            - (y3 - k) * sin(angle);
 

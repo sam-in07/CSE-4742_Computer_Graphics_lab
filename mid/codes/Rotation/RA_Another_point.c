@@ -13,12 +13,8 @@ int main()
     float angle;
 
     initgraph(&gd, &gm, "");
-
-    /* Original point */
     x1 = 300;
     y1 = 300;
-
-    /* Rotation point */
     h = 200;
     k = 200;
 

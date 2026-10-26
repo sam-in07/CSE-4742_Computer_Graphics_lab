@@ -8,13 +8,9 @@
 	      {
 		  int ts,h,k,r,te,i;
 		  float y,x;
-
-		  /* request auto detection */
 		  int gdriver = DETECT, gmode, errorcode;
 		  initgraph(&gdriver, &gmode, "c:\\tc\\bgi");
-
 		  printf("Using Trigonometric Method (Circle)");
-
 		  i=1;
 		  ts=0;
 		  te=45;

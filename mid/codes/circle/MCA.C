@@ -7,15 +7,10 @@
 	      {
 		 int x,y,r,h,k;
 		 float p;
-
-		 /* request auto detection */
 		 int gdriver = DETECT, gmode, errorcode;
-
-		 /* initialize graphics and local variables */
 		 initgraph(&gdriver, &gmode, "c:\\tc\\bgi");
 
 		 printf("Using Mid-point Circle Algorithm");
-
 		 x=0;
 		 r=75;
 		 y=r;

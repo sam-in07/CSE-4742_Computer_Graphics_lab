@@ -8,8 +8,6 @@
 	    {
 	      int x,h,k,r,x2,i;
 	      float y;
-
-	      /* request auto detection */
 	      int gdriver = DETECT, gmode, errorcode;
 
 	      initgraph(&gdriver, &gmode, "c:\\tc\\bgi");

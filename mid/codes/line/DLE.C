@@ -10,10 +10,7 @@ int main( )
 
 		  float x1,y1,x2,y2;
 		  float m,c,x,y,m1,c1;
-		  /* request auto detection */
 		  int gdriver = DETECT, gmode;
-
-		  /* initialize graphics and local variables */
 		  initgraph(&gdriver, &gmode, "c:\\tc\\bgi");
 
 		  x1=100;

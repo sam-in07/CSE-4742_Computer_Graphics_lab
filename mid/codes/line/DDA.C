@@ -7,10 +7,8 @@
 	{
 	    float x1,y1,x2,y2;
 	    float m,x,y;
-	    /* request auto detection */
 	    int gdriver = DETECT, gmode, errorcode;
 
-	    /* initialize graphics and local variables */
 	    initgraph(&gdriver, &gmode, "c:\\tc\\bgi");
         printf("Using DDA Algorithm");
 	    x1=200;

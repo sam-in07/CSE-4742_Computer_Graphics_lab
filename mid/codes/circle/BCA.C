@@ -6,7 +6,6 @@
       int main(void)
 	     {
 		 int x,d,y,r,h,k;
-		 /* request auto detection */
 		 int gdriver = DETECT, gmode;
 		 initgraph(&gdriver, &gmode, "");
 
